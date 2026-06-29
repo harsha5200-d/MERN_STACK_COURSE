@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+
+header{
+    background: linear-gradient(135deg, #8ba7db 0%, #2a5298 100%);
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-profile{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.my-profile img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.left .list{
+    list-style:none;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.right .summary{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 5px solid #2a5298; 
+}
+
+
+
+.project-title {
+    color: #111;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.project-tech {
+    color: #8ba7db; 
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.project-desc {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.certificates{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+}
+
+
+
+.footer-container {
+    background: #2a5298; /* Uses the deep blue from your header gradient */
+    color: #ffffff;
+    padding: 50px 20px 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px; /* Pushes the footer down from the content above */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 30px;
+}
+
+
+
+.footer-contact h4,
+.footer-socials h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #cdd8f0;
+}
+
+.contact-list li span {
+    font-weight: 600;
+    color: #ffffff;
+    margin-right: 8px;
+}
+
+.contact-list a {
+    color: #cdd8f0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #cdd8f0;
+}
